@@ -13,6 +13,6 @@
 			<&nice_nano_v2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
 			<&nice_nano_v2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
 			<&nice_nano_v2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-			<&nice_nano_v2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+			<&nice_nano_v2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 	};
 };
