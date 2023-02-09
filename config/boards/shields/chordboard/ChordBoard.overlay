@@ -1,8 +1,4 @@
 / {
-	chosen {
-		zmk,kscan = &default_kscan;
-	};
-
 	default_kscan {
 		compatible = "zmk,kscan-gpio-direct";
 		label = "default_kscan";
@@ -13,6 +9,12 @@
 			<&nice_nano_v2 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
 			<&nice_nano_v2 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
 			<&nice_nano_v2 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-			<&nice_nano_v2 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+			<&nice_nano_v2 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+	};
+
+	chosen {
+		zmk,kscan = &default_kscan;
 	};
 };
+
+
